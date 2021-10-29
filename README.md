@@ -2,6 +2,13 @@
 
 Basic ScalaJS implementation to figure out how it works.
 
+### Useful commands:
+
+**Generate JS** 
+```shell
+sbt fastLinkJS
+```
+
 ### Sources:
 * [Scala-js.org tutorial](https://www.scala-js.org/doc/tutorial/basic/index.html)
 * [Logrocket Scala JS tutorial](https://blog.logrocket.com/strongly-typed-frontend-code-scala-js)
