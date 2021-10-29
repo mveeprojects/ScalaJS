@@ -15,4 +15,4 @@ As a result of running this, the JavaScript will be generated in `target/scala-2
 
 **View the UI**
 
-Open `src/main/resources/index-dev.html` in your preferred browser after running `sbt fastLinkJS` as shown above.
+Open `src/main/resources/index-dev.html` in your preferred browser after running the `fastLinkJS` command as shown above.
