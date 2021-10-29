@@ -2,11 +2,11 @@ name := "ScalaJS"
 
 version := "0.1"
 
-scalaVersion := "2.13.6"
+ThisBuild / scalaVersion := "2.13.6"
 
-enablePlugins(ScalaJSPlugin)
+lazy val root = Project("scalajs", file("."))
+  .aggregate(scalajsofficialtutorial)
 
-scalaJSUseMainModuleInitializer := true
-
-libraryDependencies += "org.scala-js" %%% "scalajs-dom" % "1.1.0"
-// libraryDependencies += "org.scala-js" %%% "scalajs-dom" % "2.0.0"
+lazy val scalajsofficialtutorial = project
+  .in(file("ScalaJSOfficialTutorial"))
+  .enablePlugins(ScalaJSPlugin)
