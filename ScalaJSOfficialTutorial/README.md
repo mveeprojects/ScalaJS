@@ -11,8 +11,8 @@ First thing you'll need to do is compile your Scala code into JavaScript.
 ```shell
 sbt "project scalajsofficialtutorial; ~fastLinkJS"
 ```
-As a result of running this, the JavaScript will be generated in `target/scala-2.13/scalajs-fastopt/main.js`.
+As a result of running this, the JavaScript will be generated in `target/scala-2.13/scalajsofficialtutorial-fastopt/main.js`.
 
 **View the UI**
 
-Open `src/main/resources/index-dev.html` in your preferred browser after running `sbt fastLinkJS` as shown above.
+Open `src/main/resources/index-dev.html` in your preferred browser after running the `fastLinkJS` command as shown above.

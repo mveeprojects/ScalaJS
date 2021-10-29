@@ -6,6 +6,10 @@ Basic ScalaJS implementation to figure out how it works.
 
 Example based on the [Official ScalaJS Basic Tutorial](https://www.scala-js.org/doc/tutorial/basic/).
 
+### HandsOnScalaJSTutorial
+
+Example based on [Lihaoyi's Hands On ScalaJS Tutorial](https://www.lihaoyi.com/hands-on-scala-js/#HandsOn). 
+
 ### Sources:
 * [Scala-js.org tutorial](https://www.scala-js.org/doc/tutorial/basic/index.html)
   * [build.sbt "%%%" notation](https://www.scala-js.org/doc/project/dependencies.html)
@@ -15,4 +19,4 @@ Example based on the [Official ScalaJS Basic Tutorial](https://www.scala-js.org/
 * [Knoldus Scala JS YouTube tutorial](https://www.youtube.com/watch?v=5Ausv2CVMbM)
 * [Knoldus blog - intro to Scala JS](https://blog.knoldus.com/introduction-to-scala-js/)
 * [ScalaTest Scala JS documentation](https://www.scalatest.org/user_guide/using_scalajs)
-* [Lihaoyi Scala JS tutorial](http://www.lihaoyi.com/hands-on-scala-js/#GettingStarted)
+* [Lihaoyi Scala JS tutorial](https://www.lihaoyi.com/hands-on-scala-js/)
