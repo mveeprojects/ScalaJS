@@ -9,7 +9,7 @@ Basic ScalaJS implementation to figure out how it works.
 First thing you'll need to do is compile your Scala code into JavaScript. 
 
 ```shell
-sbt fastLinkJS # or sbt ~fastLinkJS to reflect changes in Scala to JS automatically
+sbt fastLinkJS # or sbt ~fastLinkJS to reflect changes in Scala to JavaScript automatically
 ```
 As a result of running this, the JavaScript will be generated in `target/scala-2.13/scalajs-fastopt/main.js`.
 
