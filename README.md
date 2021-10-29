@@ -6,12 +6,13 @@ Basic ScalaJS implementation to figure out how it works.
 
 **Generate JS** 
 ```shell
-sbt fastLinkJS
+sbt fastLinkJS # or sbt ~fastLinkJS to reflect changes in Scala to JS automatically
 ```
 
 ### Sources:
 * [Scala-js.org tutorial](https://www.scala-js.org/doc/tutorial/basic/index.html)
   * [build.sbt "%%%" notation](https://www.scala-js.org/doc/project/dependencies.html)
+  * [exporting Scala functions to JS](https://www.scala-js.org/doc/interoperability/export-to-javascript.html)
 * [Logrocket Scala JS tutorial](https://blog.logrocket.com/strongly-typed-frontend-code-scala-js)
 * [Alvin Alexander Scala JS Slinky hello world tutorial](https://alvinalexander.com/scala/scala.js-slinky-hello-world-tutorial-example/)
 * [Knoldus Scala JS YouTube tutorial](https://www.youtube.com/watch?v=5Ausv2CVMbM)
