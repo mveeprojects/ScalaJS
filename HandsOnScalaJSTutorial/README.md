@@ -9,7 +9,7 @@ Based on [Lihaoyi's Hands On ScalaJS Tutorial](https://www.lihaoyi.com/hands-on-
 First thing you'll need to do is compile your Scala code into JavaScript.
 
 ```shell
-sbt "project handsonscalajstutorial;; ~fastLinkJS"
+sbt "project handsonscalajstutorial; ~fastLinkJS"
 ```
 As a result of running this, the JavaScript will be generated in `target/scala-2.13/handsonscalajstutorial-fastopt/main.js`.
 

@@ -1,6 +1,8 @@
 # ScalaJS Official Tutorial
 
-Based on the [Official ScalaJS Basic Tutorial](https://www.scala-js.org/doc/tutorial/basic/).
+Based on the [Official ScalaJS Basic Tutorial](https://www.scala-js.org/doc/tutorial/basic/). 
+
+Utilising [SHOCON config](https://github.com/akka-js/shocon).
 
 ### Building and Running the app:
 

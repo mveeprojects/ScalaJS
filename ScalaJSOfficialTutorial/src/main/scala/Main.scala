@@ -2,7 +2,7 @@ import org.scalajs.dom.{document, Event, MouseEvent, Node}
 
 import scala.scalajs.js.annotation.JSExportTopLevel
 
-object Main extends App {
+object Main extends App with Config {
 
   document.addEventListener(
     "DOMContentLoaded",
@@ -36,5 +36,5 @@ object Main extends App {
 
   @JSExportTopLevel("addClickedMessage")
   def addCLickedMessage(): Unit =
-    appendParagraph(document.body, "You clicked the button.")
+    appendParagraph(document.body, buttonText)
 }
